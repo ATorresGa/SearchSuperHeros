@@ -66,7 +66,7 @@ function numberValidator(){
     alert("Ingrese solo numeros, entre 1-732 sin espacios ")
   }
 }
-function alertButtonEnter(){
+function alertButtonEnter(e){
   alert("Para buscar haz click en el boton buscar")
-  location.href="index.html"
+  e.preventDefault();
 }
